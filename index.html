@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="titulo">formulario</h1>
+    <h2 class="subtitulo">cadastro de usuario</h2>
+    <form action="paginadois.html" method="dialog">
+      <fieldset>
+        <legend>imformações pessoais</legend>
+        <label for="nome">nome</label>
+        <input type="text" name="nome" id="nome" required />
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="senha">senha</label>
+        <input type="password" name="senha" id="senha" required />
+        <label for="nascimento">data de nascimento</label>
+        <input type="date" name="nascimento" id="nascimento" />
+        <label for="genero">genero: </label>
+        <select name="genero" id="genero">
+          <option value="">selecione seu genero</option>
+          <option value="feminino">feminino</option>
+          <option value="masculino">masculino</option>
+          <option value="naodizer">prefiro não dizers</option>
+        </select>
+      </fieldset>
+      <button type="submit">inscrever-se</button>
+    </form>
+  </body>
+</html>

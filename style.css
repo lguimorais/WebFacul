@@ -1,0 +1,27 @@
+body,button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  display: block;
+  
+}
+label,
+input,
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10%;
+  
+  
+}
+button:hover {
+  background-color: red;
+}
